@@ -7,6 +7,8 @@
 body {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
+    width: 80%;
+    margin: 0 auto;
   }
   
   @media (max-width: 767px) {
@@ -14,9 +16,10 @@ body {
       font-size: 16px;
     }
   }
-.top-heading{
-    background: var(--very-pale-cyan);
+.main{
+    background: rgb(238, 255, 255)    url(./images/bg-hero-desktop.svg);
     background-repeat: no-repeat;
+   
 }
 .header {
     display: flex;
@@ -24,6 +27,7 @@ body {
     justify-content: space-between;
     padding-top: 3rem;
     padding-bottom: 2rem;
+    margin-left: 2em;
   }
   
   @media (max-width: 991px) {
@@ -41,56 +45,117 @@ body {
      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     transition: 0.3s;
     text-decoration:none ;
-}
-      
- @media (max-width: 991px) {
-    .one {
-        padding: 0.5em 2em;
-        font-size: 14px;
-        }
-}
-      
-.one{
-    color: var(--grayish-blue);
+    margin-right: 2em;
 }
 .holder{
-    display: flex;
-    width: 80%;
-    background: url(./images/bg-hero-desktop.svg) ;
-    background-color: var(--very-pale-cyan);
-
-}
-#h2{
-    font-size: xx-large;
-    font-weight: bolder;
-    margin-left: 3em;
-    padding-top: 2em;
-
-}
-.text{
-    width: 500px;
-    margin-left: 7em;
-    font-family: sans-serif;
-    font-size: small;
+  display: flex;
+  margin: 3em;
+  justify-content: space-between;
 }
 .alt{
-    width: 600px;
-    padding-left: 3em;
-    padding-right: 3em;
-    
+  width: 80vh;
+  min-height: 50vh;
+  margin-right: 1em;
+  margin-left: em;
+}
+.content-holder h2{
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-top: 3em;
+}
+.content-holder p{
+  font-size: 15px;
+  margin-bottom: 4em;
+}
+.content-holder .tag{
+  padding: 0.7em 3.6em;
+  border-radius: 25px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.3s;
+  text-decoration:none ;
+  margin-top: 10px;
+  background-color: rgb(250, 120, 228);
+  color: white;
+  font-size: small;
+}
+.container , .container2 ,.container3{
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid lavender;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.alt2{
+  width: 50vh;
+  margin-right: 5em;
+  margin-left: 2em;
+}
+.folder{
+  margin-top: 2em;
+  margin-left: 2em;
+}
+.folder h2{
+  margin-left: 4em;
+  margin-right: 4em;
+}
+.folder p{
+  margin-left: 5em;
+  margin-right: 3em;
+  color: rgb(160, 154, 154);
+  font-size: small;
+}
+
+.alt3{
+  width: 50vh;
+  margin-left: 5em;
+}
+.flower{
+  margin-right: 5em;
+}
+.flower p{
+  font-size: small;
+  color: rgb(126, 124, 124);
+}
+
+.alt4{
+  width: 50vh;
+  margin-right: 5em;
+}
+.user{
+  margin-left:5em ;
+}
+.user p{
+  font-size: small;
+  color: rgb(128, 125, 125);
+}
+.nothing{
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid lavender;
+  width: 50%;
+  margin: 0% auto;
+  text-align: center;
+  color: black;
+  font-size:larger;
+  padding: 4em;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-weight: bold;
+}
+.nothing a{
+  padding: 1em 3.6em;
+  border-radius: 25px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.3s;
+  text-decoration:none ;
+  margin-top: 10px;
+  background-color: rgb(250, 120, 228);
+  color: white;
+  font-size: small;
 
 }
-.tag{
-    background-color: rgb(247, 102, 235);
-    color: var(--very-dark-cyan);
-    font-size: 10px;
-    margin: 2em 9em;
-    padding: 1em  4em;
-    border-radius: 25px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    transition: 0.3s;
-    text-decoration:none ;
-    text-align: center;
-    color: white;
-    
-}
+ 
